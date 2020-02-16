@@ -1,13 +1,16 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-    color: #747c83;
+    color: #ffffff;
+    text-align: center;
+    
 }
 
 h2 { 
-  font-family: Arial, Helvetica, sans-serif
-  font-size: 20xp
-  color: #747c83
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #747c83;
+  padding: 20px;
  }
 
  h3 {
@@ -22,28 +25,52 @@ h2 {
    font-size: 14px;
    color: #333333;
    background-color: white;
-   width:960px;
+   width:940px;
    margin: auto;
-   padding: 10px;
+   padding: 20px;
  }
+
+ input {
+   margin: 5px;
+ }
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  text-decoration: none;
+}
 
 body {
     margin: 0; 
     padding: 0; 
-    -ms-text-size-adjust: 100%; 
-    -webkit-text-size-adjust: 100%; 
-    outline: none !important;  
     background-color: #FFFFFF; 
     background-image: url("https://urgeinteractive.com/emimg/2020/sparklebackground2222.jpg");
     background-repeat: no-repeat; background-position: center;background-size: cover;
 }
 
+nav {
+  display: block;
+  position: relative;
+  left: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+
 header {
-width: auto;
-height: 100px;
-background-color: lightblue;
-margin: 0px auto 10px auto;
-padding: auto;
+  width: auto;
+  height: 80px;
+  background-color: white;
+  margin: 0px auto 10px auto;
+  padding: auto;
+}
+
+hr {
+  width: 930px;
+  margin: 10px;
+  position: relative;
+  left: 30px;
 }
 
 section {
@@ -54,12 +81,37 @@ section {
   background-color: white;
 }
 
+footer {
+  width: 100%;
+  height: 80px;
+  border-top: 10px;
+  border-color: #00AF9D;
+  background-color: #686868;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 60px 0px;
+}
+
+.top {
+  width: 100%;
+  height: 5px;
+  background-color: #00AF9D;
+}
+
 .title_square {
   background-color: teal;
   width: 200px;
-  height: 100px;
+  height: 80px;
   position: relative;
   left: 150px;
+}
+
+.spacer {
+  width: 100%;
+  height: 30px;
+  margin: 10 20;
+
 }
 
 .nav-buttons {
